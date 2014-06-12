@@ -171,9 +171,6 @@ module.exports = function(grunt) {
     // Watch Project - $ grunt
     grunt.registerTask( "default", [ "watch" ]);
 
-    // Grunt GUI - $ grunt gui
-    grunt.loadNpmTasks('grunt-peon-gui');
-
     // Uglify js - $ grunt u
     grunt.registerTask( "u", [ "uglify" ]);
 
